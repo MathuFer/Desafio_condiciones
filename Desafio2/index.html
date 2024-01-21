@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Desafio Condiciones Parte 2</title>
+</head>
+<body>
+    <main>
+        <div class="Sticker1">
+            <h3>Sticker 1</h3>
+            <img src="./assets/imgs/Sticker 1.png" alt="Sticker tipo 1">
+            <label for="cantidad1">Cantidad:</label>
+            <input type="number" id="cant1" min="0" max="10">
+        </div>
+
+        <div class="Sticker2">
+            <h3>Sticker 2</h3>
+            <img src="./assets/imgs/Sticker 2.png" alt="Sticker tipo 2">
+            <label for="cantidad2">Cantidad:</label>
+            <input type="number" id="cant2" min="0" max="10">
+        </div>
+
+        <div class="Sticker3">
+            <h3>Sticker 3</h3>
+            <img src="./assets/imgs/Sticker 3.png" alt="Sticker tipo 3">
+            <label for="cantidad3">Cantidad:</label>
+            <input type="number" id="cant3" min="0" max="10">
+        </div>
+    </main>
+
+    <div class="verificacion">
+        <button onclick="verificarPedido()">Verificar Pedido</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

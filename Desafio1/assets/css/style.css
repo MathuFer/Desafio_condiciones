@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 350px;   
+    cursor: pointer;
+}
+
+.borde-rojo {
+    border: 2px solid red;
+}
